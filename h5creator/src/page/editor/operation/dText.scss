@@ -1,0 +1,18 @@
+.text-content {
+  position: absolute;
+}
+
+.content {
+  word-break: break-word;
+  white-space: normal;
+  position: relative;
+  left: 0;
+  transform-origin: 0px 0px;
+  // animation-name: bounceInDown;
+  // animation-duration: 1s;
+
+  &:focus {
+    outline: none;
+  }
+
+}

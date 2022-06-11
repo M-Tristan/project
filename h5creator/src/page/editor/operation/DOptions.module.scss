@@ -1,0 +1,29 @@
+.DOptions {
+  position: absolute;
+  display: inline-block;
+  cursor: move;
+  user-select: none;
+}
+
+.options {
+  width: 100%;
+}
+
+.option-group {
+  padding: 7px 0;
+  margin: 0 8px;
+  line-height: 18px;
+  border-bottom: 1px solid #59c7f9;
+}
+
+.option-label {
+  font-size: 12px;
+  margin-bottom: 0;
+  display: inline-block;
+
+}
+
+.option {
+  vertical-align: middle;
+  margin-right: 5px;
+}

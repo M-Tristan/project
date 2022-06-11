@@ -1,0 +1,29 @@
+.componentList {
+  padding: 5px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  width: 80px;
+  height: 108px;
+  border: 1px solid #e8eaec;
+  border-radius: 4px;
+  background: #f9fafb;
+  cursor: pointer;
+  float: left;
+
+  i {
+    font-size: 30px;
+  }
+
+}
+
+.disabled {
+  color: #e8eaec;
+}

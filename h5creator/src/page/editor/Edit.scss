@@ -1,0 +1,56 @@
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.module-area {
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+  left: 0px;
+  width: 65px;
+  border-right: 1px solid rgb(223, 223, 223);
+}
+
+.edit-area {
+  position: absolute;
+  overflow-y: scroll;
+  top: 50px;
+  bottom: 0px;
+  right: 0px;
+  width: 340px;
+  border-left: 1px solid rgb(223, 223, 223);
+  background-color: white;
+}
+
+.canvas-area {
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+  right: 340px;
+  left: 346px;
+  background-color: rgba(236, 236, 236, 0.205);
+  overflow: scroll;
+}
+
+.batchContent {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid blue;
+  background-color: rgba(0, 255, 255, 0.233);
+  z-index: 990;
+}
+
+.batchMask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}

@@ -1,0 +1,21 @@
+.InputNumber {
+  overflow: hidden;
+  position: absolute;
+  width: 158px;
+  height: 38px;
+  background: #fdfdfd;
+  border-radius: 19px;
+  right: 340px;
+  bottom: 10px;
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  color: rgb(0, 0, 0);
+
+}
+
+.icon {
+  cursor: pointer;
+}

@@ -7,13 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "vueplay": "pnpm run -C vueplay dev",
     "qrcodecreator": "pnpm run -C qrcodecreator start",
-    "postercreator": "pnpm run -C postercreator dev"
+    "postercreator": "pnpm run -C postercreator dev",
+    "h5creator": "pnpm run -C h5creator start"
   },
   "workspaces": [
     "packages/*",
     "vueplay",
     "qrcodecreator",
-    "postercreator"
+    "postercreator",
+    "h5creator"
   ],
   "repository": {
     "type": "git",

@@ -1,0 +1,21 @@
+.chart{
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 130px;
+    position: relative;
+  }
+  .mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    cursor: pointer;
+  }
+  .chart-content{
+    transform: scale(0.5,0.5);
+    transform-origin:0 0;
+    
+  }

@@ -1,0 +1,52 @@
+.module {
+  position: relative;
+  height: 100%;
+}
+
+.module-material {
+  z-index: 2000;
+  width: 280px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-right: 1px solid rgb(235, 235, 235);
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255);
+}
+
+.module-item {
+  position: relative;
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .modelu-icon {
+    font-size: 25px;
+  }
+
+  .module-name {
+    font-size: 12px;
+  }
+
+  &:hover {
+    color: rgb(0, 162, 255);
+  }
+}
+
+.active {
+  &::after {
+    content: " ";
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,97 @@
+.preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.424);
+  z-index: 2000;
+}
+
+.phone-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 500px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  width: 387px;
+  height: 778px;
+  position: relative;
+}
+
+.screen {
+  width: 335px;
+  height: 535px;
+  position: absolute;
+  // background-color: rgba(0, 255, 255, 0.294);
+  top: 150px;
+  left: 25px;
+  overflow: hidden;
+}
+
+.edit-area {
+  position: absolute;
+  width: 500px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  text-align: center;
+}
+
+.button-area {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 70px;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.next-page {
+  position: absolute;
+  left: 100%;
+  top: 55%;
+  color: white;
+  background-color: rgb(0, 162, 255);
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.previous-page {
+  position: absolute;
+  left: 100%;
+  bottom: 55%;
+  color: white;
+  background-color: rgb(0, 162, 255);
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editCode {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.code-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

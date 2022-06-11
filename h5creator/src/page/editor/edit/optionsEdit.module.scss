@@ -1,0 +1,114 @@
+.oper-item {
+  height: auto;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+.oper-name {
+  width: 20%;
+  float: left;
+}
+
+.oper-input {
+  width: 80%;
+  float: left;
+}
+
+.decoration {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.transverse {
+  transform: rotate(90deg);
+}
+
+.flip {
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(187, 187, 187);
+  color: white;
+  font-size: 20px;
+  float: left;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 36, 112);
+}
+
+.text-shadow {
+  width: 100%;
+  display: flex;
+}
+
+.add-area {
+  height: 20px;
+  width: 100%;
+}
+
+.add-icon {
+  font-size: 20px;
+  float: right;
+  cursor: pointer;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.strokeWidth {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.font-list {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.fontActive {
+  background-color: rgb(0, 3, 158);
+  color: rgb(255, 255, 255);
+}
+
+.font-item {
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(243, 243, 243, 0.52);
+    color: #000;
+  }
+}
+
+.shapeItem {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.shapeActive {
+  background-color: rgb(5, 161, 251);
+}
+
+.color-item {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgb(128, 128, 128);
+}

@@ -1,0 +1,39 @@
+.NavigationBar {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 260px;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+}
+
+.create-button {
+  text-align: center;
+  padding: 10px;
+}
+
+.Navigation-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  .Navigation-item {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #4b4b4b;
+
+    &:hover {
+      background: #f1f5f8;
+      color: #1593ff;
+    }
+  }
+}
+
+.active {
+  background: #f1f5f8;
+  color: #1593ff;
+}

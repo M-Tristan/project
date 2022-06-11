@@ -1,0 +1,22 @@
+.number-edit {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+  span {
+    color: rgb(0, 132, 255);
+
+    &:hover {
+      color: rgb(81, 200, 255);
+    }
+  }
+}
+
+.form {
+  padding: 10px;
+}
+
+.button-area {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

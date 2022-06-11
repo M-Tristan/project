@@ -1,0 +1,25 @@
+.editContent{
+   
+    -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   position:absolute;
+   transform-origin: left top;
+   margin-bottom: 30px;
+   .background{
+     width: 100%;
+     height: 100%;
+     position: relative;
+     img{
+       position:absolute;
+     }
+   }
+ }
+ .backgroundImage{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.308);
+    background-color:#fff;
+   background-size: 16px 16px;
+   background-position: 0 0,8px 8px;
+   background-image: linear-gradient(to top right,#ccc 25%,transparent 0,transparent 75%,#ccc 0,#ccc),linear-gradient(to top right,#ccc 25%,transparent 0,transparent 75%,#ccc 0,#ccc)
+ }

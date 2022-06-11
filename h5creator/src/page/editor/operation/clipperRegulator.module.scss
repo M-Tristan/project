@@ -1,0 +1,26 @@
+.item {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(129, 129, 129);
+}
+
+.item-Horizontal {
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(129, 129, 129);
+}
+
+.item-vertical {
+  position: absolute;
+  width: 5px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(129, 129, 129);
+}
