@@ -2,4 +2,5 @@ packages:
   - packages/*
   - vueplay
   - qrcodecreator
+  - postercreator
 
