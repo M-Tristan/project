@@ -1,0 +1,23 @@
+{
+  "name": "createqrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": " npm run tsc && npm run rollup-build && rimraf .tmp",
+    "rollup-build": "rollup -c ./rollup.config.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.64.0",
+    "rollup-plugin-dts": "^4.1.0"
+  }
+}

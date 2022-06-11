@@ -1,0 +1,52 @@
+.QRCodeDisplay {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.QRCodeDisplayContent {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.canvasContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.codeCanvas {
+    /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%); */
+    width: 100%;
+}
+
+.LogoCanvas {
+    position: absolute;
+}
+
+.backImageContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.backImage {
+    width: 100%;
+}

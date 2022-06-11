@@ -5,11 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcreater": "pnpm run -C postercreator dev"
+    "vueplay": "pnpm run -C vueplay dev",
+    "qrcodecreator": "pnpm run -C qrcodecreator start"
   },
+  "workspaces": [
+    "packages/*",
+    "vueplay",
+    "qrcodecreator"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/M-Tristan/project.git"
+  },
+  "dependencies": {
+    "@packages/test": "workspace:*",
+    "createqrcode": "workspace:*"
   },
   "author": "",
   "license": "ISC",

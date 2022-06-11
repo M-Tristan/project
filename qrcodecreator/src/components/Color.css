@@ -1,0 +1,43 @@
+.ColorStyle{
+  width: 100%;
+}
+.info-item{
+  display: flex;
+  margin: 10px;
+}
+.name{
+  flex: 2;
+  text-align: center;
+}
+.controll-item{
+  flex: 10;
+}
+.color-picker{
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: none;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  box-shadow: 0 0 4px rgb(143, 143, 143);
+}
+.gradual-item{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+}
+.texture-back{
+  width: 100px;
+  margin: 10px;
+  float: left;
+}
+.colorDom{
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+.backImageActive{
+  border: 2px solid red;
+}

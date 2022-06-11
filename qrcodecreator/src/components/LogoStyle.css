@@ -1,0 +1,26 @@
+.BorderStyle{
+  width: 100%;
+}
+.info-item{
+  display: flex;
+  margin: 10px;
+}
+.name{
+  flex: 2;
+  text-align: center;
+}
+.controll-item{
+  flex: 10;
+}
+.logoImage{
+  width: 100px;
+  float: left;
+  margin: 20px;
+  box-shadow: 0 0 4px rgb(151, 151, 151);
+  cursor: pointer;
+}
+.logoActive{
+  border: 2px solid red;
+  box-shadow: 0 0 10px rgb(248, 0, 0);
+  /* border-image: -webkit-linear-gradient(rgb(255, 0, 0),rgb(0, 140, 255)) 30 30; */
+}
