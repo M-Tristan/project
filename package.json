@@ -8,14 +8,16 @@
     "vueplay": "pnpm run -C vueplay dev",
     "qrcodecreator": "pnpm run -C qrcodecreator start",
     "postercreator": "pnpm run -C postercreator dev",
-    "h5creator": "pnpm run -C h5creator start"
+    "h5creator": "pnpm run -C h5creator start",
+    "xmindwork": "pnpm run -C xmindwork start"
   },
   "workspaces": [
     "packages/*",
     "vueplay",
     "qrcodecreator",
     "postercreator",
-    "h5creator"
+    "h5creator",
+    "xmindwork"
   ],
   "repository": {
     "type": "git",
