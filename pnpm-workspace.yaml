@@ -4,5 +4,7 @@ packages:
   - qrcodecreator
   - postercreator
   - h5creator
-  - xmindwork
+    xmindwork
+  - xmindwork/*
+  - electron-desktop
 
